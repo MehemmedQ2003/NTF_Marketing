@@ -1,0 +1,1292 @@
+nav {
+  background-color: $second-clr;
+  top: 0;
+  z-index: 1;
+  .navbar-brand {
+    margin: 0 $margin-20px;
+    img {
+      width: $size-100px;
+    }
+  }
+  .collapse {
+    margin: 0 $margin-20px;
+    .navbar-nav {
+      a {
+        border-radius: $border-radius;
+        font-weight: $bold;
+        margin: $margin-10px $margin-20px;
+        padding: $padding-10px $padding-20px;
+      }
+      .active {
+        background-color: $text-clr;
+        border-radius: $border-radius;
+        color: $second-clr;
+      }
+      .nav-link:hover {
+        background-color: $text-clr;
+        border-radius: $border-radius;
+        color: $second-clr;
+      }
+    }
+  }
+}
+
+
+#first {
+  background: url("/img/banner-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: 600px;
+  .row {
+    position: relative;
+    .col-lg-12 {
+      text-align: $text_center;
+      color: $second-clr;
+      .header-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        h1 {
+          margin-bottom: $margin-10px;
+        }
+        button {
+          background: $none;
+          color: $second-clr;
+          margin-bottom: $margin-20px;
+          margin: $margin-10px $margin-5px;
+          border-radius: $border-radius;
+          border: $border-radius-sm $solid $text-clr;
+          border-bottom: $border-radius-3sm $solid $second-clr;
+          &:hover {
+            background-color: $text-clr;
+          }
+        }
+        .btn1 {
+          background-color: $text-clr;
+        }
+      }
+    }
+  }
+}
+
+
+#second {
+  background: url("/img/category-collection-dec.png");
+  background-color: $bg_color_1;
+  background-repeat: $bg_repeat;
+  background-position: $bg_position;
+  background-size: $bg_size;
+  padding: $padding-50px;
+  height: $auto;
+  .container {
+    .row {
+      h1 {
+        margin: $margin-40px 0;
+        text-align: $text_center;
+        color: $second-clr;
+        b {
+          color: $text-clr;
+        }
+      }
+      .col-lg-2 {
+        margin: $margin-20px 0;
+        .icon {
+          background-color: $bg-color;
+          padding: $padding-20px;
+          text-align: $text_center;
+          border-radius: $border-radius-10;
+          border: $size-1px $solid $second-clr;
+          img {
+            background: $second-clr;
+            padding: $font-size-sm;
+            height: $size-70px;
+            width: $size-70px;
+            border-radius: $border-radius-round;
+          }
+          h4 {
+            margin: $margin-20px 0;
+            color: $second-clr;
+          }
+        }
+      }
+    }
+    .regular {
+      margin: $margin-40px 0;
+      .card1 {
+        border: $border-radius-sm $solid $text-clr;
+        width: $size-100;
+        border-radius: $border-radius-lg;
+        img {
+          border-top-right-radius: $border-radius-lg;
+          border-top-left-radius: $border-radius-lg;
+        }
+        .title {
+          padding: $padding-30px;
+          h5,
+          h6,
+          hr {
+            color: $second-clr;
+          }
+          p {
+            color: $second-clr;
+            font-weight: $bold;
+          }
+          .btn_explore {
+            background: $none;
+            background-color: $text-clr;
+            border: $border-radius-sm $solid $text-clr;
+            border-radius: $border-radius;
+            color: $second-clr;
+            margin: $margin-20px 0;
+            padding: $padding-10px;
+            width: $size-100;
+            border-bottom: $border-radius-3sm $solid $second-clr;
+            &:hover {
+              background-color: $bg_color_1;
+              color: $second-clr;
+            }
+            button {
+              background-color: $second-clr;
+              border-radius: $border-radius-round;
+              padding: $padding-5px;
+              color: $second-clr;
+              border-radius: $border-radius;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#third {
+  background: url("/img/main-bg.jpg");
+  background-color: $bg_color_1;
+  background-repeat: $bg_repeat;
+  background-position: $bg_position;
+  background-size: $bg_size;
+  padding: $padding-50px;
+  height: $auto;
+  .container {
+    padding: $padding-50px;
+    .col-lg-6 {
+      margin: $margin-20px 0;
+      h3 {
+        color: $second-clr;
+      }
+      .create {
+        float: right;
+        background: $none;
+        color: $second-clr;
+        padding: $padding-20px $padding-40px;
+        background-color: $text-clr;
+        border-radius: $border-radius;
+        border: $border-radius-sm $solid $text-clr;
+        border-bottom: $border-radius-3sm $solid $second-clr;
+        &:hover {
+          background-color: $second-clr;
+          color: $text-clr;
+        }
+      }
+    }
+    .col-lg-4 {
+      margin: $margin-30px 0;
+      .card1 {
+        border: $size-1px $solid $second-clr;
+        padding: $padding-40px;
+        border-radius: $border-radius-10;
+        img {
+          margin: $margin-20px 0;
+          background: $second-clr;
+          padding: $font-size-sm;
+          height: $size-70px;
+          width: $size-70px;
+          border-radius: $border-radius-round;
+        }
+        h3,
+        p {
+          color: $second-clr;
+          margin: $margin-20px 0;
+        }
+      }
+    }
+  }
+}
+
+
+#fourth {
+  background: url("/img/dark-bg.jpg");
+  background-repeat: $bg_repeat;
+  background-position: $bg_position;
+  background-size: $bg_size;
+  padding: $padding-30px;
+  height: $auto;
+  .container {
+    padding: $padding-30px;
+    .col-lg-5 {
+      margin: $margin-30px 0;
+      .title {
+        h3 {
+          color: $second-clr;
+          b {
+            color: $text-clr;
+          }
+        }
+      }
+    }
+    .col-lg-7 {
+      margin: $margin-30px 0;
+      ul {
+        li {
+          color: $second-clr;
+          font-weight: $bold;
+          border-radius: $font-size-sm;
+          margin: 0 $margin-10px;
+          background: $none;
+          border: $none;
+          &:hover {
+            background-color: $text-clr;
+            color: $second-clr;
+          }
+        }
+        .first {
+          background-color: $text-clr;
+        }
+      }
+    }
+    .col-lg-6 {
+      margin: $margin-50px 0;
+      .card {
+        border-radius: $border-radius;
+        padding: $padding-30px;
+        background-color: $bg-color;
+        .row {
+          display: $flex;
+          align-items: $text_center;
+          .col-lg-5 {
+            padding: $padding-15px;
+            img {
+              width: $size-100;
+              border-radius: $border-radius;
+              height: $size-320px;
+            }
+          }
+          .col-lg-7 {
+            color: $second-clr;
+            .card-title {
+              margin-bottom: $margin-30px;
+            }
+            .title {
+              display: $flex;
+              margin: $margin-20px 0;
+              img {
+                border-radius: $border-radius-round;
+                margin: 0 $margin-10px;
+              }
+              p {
+                b {
+                  color: $text-clr;
+                }
+              }
+            }
+            h5,
+            p {
+              margin: $margin-20px 0;
+            }
+            .eth {
+              font-weight: $bold;
+              font-size: $size-20px;
+            }
+            .view {
+              color: $text-clr;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#fifth {
+  background: url("/img/main-bg.jpg");
+  background-repeat: $bg_repeat;
+  background-position: $bg_position;
+  background-size: $bg_size;
+  padding: $padding-50px;
+  height: $auto;
+  .container {
+    padding: $padding-50px;
+    border-radius: $border-radius-lg;
+    background-color: $bg-color_1;
+    label {
+      color: $second-clr;
+    }
+    input {
+      border-radius: $border-radius-lg;
+    }
+    .col-lg-4 {
+      margin: $margin-20px 0;
+      form {
+        margin-bottom: $margin-20px;
+        label {
+          margin: $margin-10px 0;
+        }
+        input {
+          border: $none;
+          padding: $padding-10px;
+        }
+      }
+    }
+    .col-lg-6 {
+      margin: $margin-20px 0;
+      .form {
+        margin-bottom: $margin-20px;
+        label {
+          margin: $margin-10px 0;
+        }
+        input {
+          border: $none;
+          padding: $padding-10px;
+        }
+      }
+    }
+    .col-lg-3 {
+      margin: $margin-10px 0;
+      .form {
+        margin-bottom: $margin-20px;
+        label {
+          margin: $margin-10px 0;
+        }
+        input {
+          border: $none;
+          padding: $padding-10px;
+        }
+      }
+    }
+    .col-lg-9 {
+      padding: $padding-30px;
+      margin: $margin-20px 0;
+      .input {
+        margin-bottom: $margin-20px;
+        width: $size-100;
+        input {
+          background-color: $text-clr;
+          border: $none;
+          color: $second-clr;
+          padding: $padding-10px;
+          margin-top: $margin-30px;
+          margin: 0 $margin-30px;
+          width: $size-100;
+        }
+      }
+    }
+    .item_preview {
+      text-align: $text_center;
+      color: $second-clr;
+      margin: $margin-30px 0;
+      b {
+        color: $text-clr;
+      }
+    }
+    .left {
+      img {
+        width: $size-100;
+        height: $size-360px;
+        border-radius: $border-radius;
+      }
+    }
+    .right {
+      .img {
+        display: $flex;
+        margin: $margin-30px 0;
+        img {
+          border-radius: $border-radius-round;
+          margin: 0 $margin-20px;
+        }
+      }
+      h4 {
+        color: $second-clr;
+      }
+      p {
+        color: $second-clr;
+        a {
+          text-decoration: $none;
+          color: $text-clr;
+          display: block;
+        }
+      }
+    }
+    .title_all {
+      display: $flex;
+      justify-content: space-around;
+      .title-1,
+      .title-2,
+      .title-3 {
+        padding: $padding-10px;
+        margin: $margin-20px 0;
+        h5 {
+          color: $text-clr;
+        }
+        h6 {
+          color: $second-clr;
+        }
+      }
+    }
+  }
+}
+
+
+footer {
+  background-color: $text-clr;
+  .container {
+    padding: $padding-30px 0;
+    .col-lg-12 {
+      color: $second-clr;
+      text-align: $text_center;
+      a {
+        text-decoration: $none;
+        color: $second-clr;
+        text-align: $text_center;
+        margin: 0 $margin-10px;
+      }
+    }
+  }
+}
+
+
+#e_first {
+  background: url("/img/heading-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  .container {
+    padding: $padding-50px;
+    .title {
+      text-align: $text_center;
+      color: $second-clr;
+      h1,
+      h3 {
+        margin: $margin-20px 0;
+        font-weight: $bold;
+      }
+      p {
+        font-size: $font-size-sm;
+        a {
+          text-decoration: $none;
+          color: $text-clr;
+          font-weight: $bold;
+        }
+      }
+    }
+    .regular {
+      margin-top: $margin-30px;
+      .card1 {
+        img {
+          border-radius: $border-radius-lg;
+          height: $size-360px;
+        }
+      }
+    }
+  }
+}
+
+
+#e_second {
+  background: url("/img/dark-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  .container {
+    .row {
+      .group {
+        padding: $padding-50px;
+        color: $second-clr;
+        .col-lg-4 {
+          margin-top: $margin-20px;
+          h3 {
+            font-weight: $bold;
+            span {
+              color: $text-clr;
+            }
+          }
+        }
+        .col-lg-8 {
+          .col-lg-3 {
+            margin-top: $margin-20px;
+            input {
+              background: $none;
+              border: $size-1px $solid $second-clr;
+              border-radius: $border-radius-lg;
+              color: $second-clr;
+            }
+            select {
+              background: $none;
+              border: $size-1px $solid $second-clr;
+              border-radius: $border-radius-lg;
+              color: $second-clr;
+              padding: $padding-10px;
+              option {
+                background-color: $border_color;
+              }
+            }
+            button {
+              width: $size-100;
+              border-radius: $border-radius-lg;
+              background-color: $text-clr;
+              color: $second-clr;
+              font-weight: $bold;
+              &:hover {
+                background-color: $second-clr;
+                color: $text-clr;
+              }
+            }
+          }
+        }
+      }
+      .col-lg-3 {
+        margin: $margin-40px 0;
+        .card {
+          color: $second-clr;
+          background-color: $bg-color_2;
+          padding: $padding-30px;
+          border-radius: $border-radius-10;
+          img {
+            border-radius: $border-radius-10;
+            height: $font-size-8lg;
+          }
+          .card-body {
+            h5 {
+              color: $text-clr;
+            }
+            .title {
+              font-weight: $bold;
+              margin: $margin-20px 0;
+              display: $flex;
+              justify-content: space-between;
+            }
+            button {
+              border-radius: $border-radius-lg;
+              color: $second-clr;
+              background-color: $text-clr;
+              width: $size-100;
+              &:hover {
+                color: $text-clr;
+                background-color: $second-clr;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#e_third {
+  background: url("/img/main-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  .container {
+    .row {
+      color: $second-clr;
+      h1 {
+        text-align: $text_center;
+        margin: $margin-50px 0;
+      }
+      .col-lg-3 {
+        margin: $margin-40px 0;
+        .sellers {
+          padding: $padding-15px;
+          display: $flex;
+          justify-content: $text_center;
+          align-items: $text_center;
+          img {
+            margin-left: 0;
+            margin-left: $margin-10px;
+            margin-right: $margin-20px;
+            border-radius: $border-radius-round;
+          }
+          p {
+            font-weight: $bold;
+            margin-bottom: -$margin-5px;
+            font-size: $font-size-root17;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#i_first {
+  background: url("/img/heading-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  .container {
+    padding: $padding-50px 0;
+    .row {
+      padding: $padding-50px 0;
+      color: $second-clr;
+      text-align: $text_center;
+      h1 {
+        font-weight: $bold;
+        font-size: $size-50px;
+      }
+      p {
+        font-weight: $bold;
+        font-size: $size-20px;
+        a {
+          color: $text-clr;
+          text-decoration: $none;
+        }
+      }
+      .btns {
+        .btn1 {
+          border-radius: $border-radius-lg;
+          padding: $padding-10px $padding-20px;
+          border: $none;
+          color: $second-clr;
+          background-color: $text-clr;
+          margin: $margin-10px $margin-5px;
+          &:hover {
+            color: $text-clr;
+            background-color: $second-clr;
+            transition: 1s;
+          }
+        }
+        .btn2 {
+          border-radius: $border-radius-lg;
+          padding: $padding-10px $padding-20px;
+          border: $size-1px $solid $text-clr;
+          color: $second-clr;
+          background: $none;
+          margin: $margin-10px $margin-5px;
+          &:hover {
+            color: $text-clr;
+            background-color: $second-clr;
+            transition: 1s;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#i_second {
+  background: url("/img/dark-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  padding: $padding-30px;
+  .container {
+    padding: $padding-10px;
+    h3 {
+      color: $second-clr;
+      text-align: $text_center;
+      margin: $margin-50px 0;
+      span {
+        color: $text-clr;
+      }
+    }
+    .left {
+      margin: $margin-20px 0;
+      img {
+        border-radius: $border-radius-10;
+        width: $size-100;
+      }
+    }
+    .right {
+      margin: $margin-20px 0;
+      padding: $padding-20px $padding-40px;
+      h5 {
+        color: $second-clr;
+      }
+      .artist {
+        margin: $margin-20px 0;
+        display: $flex;
+        justify-content: $text_start;
+        align-items: $text_center;
+        img {
+          border-radius: $border-radius-round;
+        }
+        p {
+          color: $second-clr;
+          margin: 0 $margin-10px;
+          a {
+            color: $text-clr;
+            text-decoration: $none;
+          }
+        }
+      }
+      p {
+        color: $second-clr;
+        margin: $margin-30px $margin-10px;
+      }
+      .sbt {
+        color: $second-clr;
+        margin: $margin-10px;
+        text-decoration: $none;
+        background-color: $text-clr;
+        padding: $padding-10px $padding-20px;
+        border-radius: $border-radius-10;
+        &:hover {
+          background-color: $second-clr;
+          color: $text-clr;
+        }
+      }
+    }
+    .crt{   
+        font-weight: $bold;
+        font-size: $font-size-sm;
+        color: $second-clr;
+        margin: $margin-50px;
+        background-color: $text-clr;
+        border-radius: $border-radius-10;
+        padding: $padding-10px $padding-20px;
+        &:hover {
+          background-color: $second-clr;
+          color: $text-clr;
+        }
+
+    }
+    .col-lg-4 {
+      margin: $margin-30px 0;
+      padding: $padding-20px;
+      .card {
+        background-color: $bg-color_2;
+        border-radius: $border-radius-10;
+        .row {
+          .col-lg-6 {
+            img {
+              width: $size-100;
+              border-radius: $border-radius-10;
+              height: $size-250px;
+            }
+          }
+          .col-lg-6 {
+            .card-body {
+              h5 {
+                color: $second-clr;
+              }
+              a {
+                color: $text-clr;
+                text-decoration: $none;
+                margin-bottom: $margin-20px;
+              }
+              hr{
+                color: $second-clr;
+              }
+              p{
+                color: $second-clr;
+                margin-top: $margin-20px;
+                span{
+                    color: $text-clr;
+                    font-weight: $bold;
+                    font-size: $font-size-sm;
+                }
+              }
+              .p1{
+                color: $text-clr;
+                font-size: $font-size-root17;
+                font-weight: $bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#i_third {
+  background: url("/img/main-bg.jpg");
+  background-color: $bg_color_1;
+  background-repeat: $bg_repeat;
+  background-position: $bg_position;
+  background-size: $bg_size;
+  padding: $padding-50px;
+  height: $auto;
+  .container {
+    padding: $padding-50px;
+    .col-lg-6 {
+      margin: $margin-20px 0;
+      h3 {
+        color: $second-clr;
+      }
+      .create {
+        float: right;
+        background: $none;
+        color: $second-clr;
+        padding: $padding-20px $padding-40px;
+        background-color: $text-clr;
+        border-radius: $border-radius;
+        border: $border-radius-sm $solid $text-clr;
+        border-bottom: $border-radius-3sm $solid $second-clr;
+        &:hover {
+          background-color: $second-clr;
+          color: $text-clr;
+        }
+      }
+    }
+    .col-lg-4 {
+      margin: $margin-30px 0;
+      .card1 {
+        border: $size-1px $solid $second-clr;
+        padding: $padding-40px;
+        border-radius: $border-radius-10;
+        img {
+          margin: $margin-20px 0;
+          background: $second-clr;
+          padding: $font-size-sm;
+          height: $size-70px;
+          width: $size-70px;
+          border-radius: $border-radius-round;
+        }
+        h3,
+        p {
+          color: $second-clr;
+          margin: $margin-20px 0;
+        }
+      }
+    }
+  }
+}
+
+
+#a_first {
+  background: url("/img/heading-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  .container {
+    padding: $padding-50px 0;
+    .row {
+      padding: $padding-50px 0;
+      color: $second-clr;
+      text-align: $text_center;
+      h1 {
+        font-weight: $bold;
+        font-size: $size-50px;
+      }
+      p {
+        font-weight: $bold;
+        font-size: $size-20px;
+        a {
+          color: $text-clr;
+          text-decoration: $none;
+        }
+      }
+      .btns {
+        .btn1 {
+          border-radius: $border-radius-lg;
+          padding: $padding-10px $padding-20px;
+          border: $none;
+          color: $second-clr;
+          background-color: $text-clr;
+          margin: $margin-10px $margin-5px;
+          &:hover {
+            color: $text-clr;
+            background-color: $second-clr;
+            transition: 1s;
+          }
+        }
+        .btn2 {
+          border-radius: $border-radius-lg;
+          padding: $padding-10px $padding-20px;
+          border: $size-1px $solid $text-clr;
+          color: $second-clr;
+          background: $none;
+          margin: $margin-10px $margin-5px;
+          &:hover {
+            color: $text-clr;
+            background-color: $second-clr;
+            transition: 1s;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#a_second{
+  background: url("/img/dark-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  .container{
+    padding: $padding-10px;
+    .row{
+      padding: $padding-10px;
+      display: $flex;
+      justify-content: space-between;
+      align-items: $text_center;
+      .left{
+        margin: $margin-20px 0;
+        .smith{
+          display: $flex;
+          align-items: $text_center;
+          gap: 30px;
+          img{
+            width: $size-160px;
+            border-radius: $border-radius-round;
+          }
+          .title{
+            h3{
+              color: $second-clr;
+            }
+            a{
+              text-decoration: $none;
+              color: $text-clr;
+            }
+          }
+        }
+      }
+      .right{
+        margin: $margin-20px 0;
+        .card{
+          background-color: $bg-color_2;
+          border-radius: $border-radius-lg;
+          padding: $padding-20px;
+          .icons{
+            display: $flex;
+            justify-content: space-between;
+            a{
+              color: $text-clr;
+              font-size: $font-size-sm25;
+            }
+            p{
+              color: $second-clr;
+              span{
+                color: $text-clr;
+                font-size: $font-size-sm;
+                font-weight: $bold;
+              }
+            }
+          }
+          .follow{
+            display: $flex;
+            margin: $margin-20px 0;
+            justify-content: space-between;
+            p{
+              color: $text-clr-other;
+              font-size: $font-size-sm25;
+              font-weight: $bold;
+            }
+            a{
+              text-decoration: $none;
+              color: $second-clr;
+              background-color: $text-clr;
+              padding: $padding-10px $padding-30px;
+              border-radius: $border-radius-lg;
+              font-weight: $bold;
+              &:hover{
+                background-color: $second-clr;
+                color: $text-clr;
+                transition: 0.6s;
+              }
+            }
+          }
+        }
+      }
+      h1{
+        color: $second-clr;
+        margin: $margin-40px 0;
+        span{
+          color: $text-clr;
+          font-weight: $bold;
+        }
+      }
+      .col-lg-3 {
+        margin: $margin-40px 0;
+        .card {
+          color: $second-clr;
+          background-color: $bg-color_2;
+          padding: $padding-20px;
+          border-radius: $border-radius-10;
+          img {
+            border-radius: $border-radius-10;
+            height: $font-size-8lg;
+          }
+          .card-body {
+            h5 {
+              color: $text-clr;
+            }
+            .title {
+              font-weight: $bold;
+              margin: $margin-20px 0;
+              display: $flex;
+              justify-content: space-between;
+            }
+            button {
+              border-radius: $border-radius-lg;
+              color: $second-clr;
+              background-color: $text-clr;
+              width: $size-100;
+              &:hover {
+                color: $text-clr;
+                background-color: $second-clr;
+                transition: 0.6s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#a_third {
+  background: url("/img/main-bg.jpg");
+  background-color: $bg_color_1;
+  background-repeat: $bg_repeat;
+  background-position: $bg_position;
+  background-size: $bg_size;
+  padding: $padding-50px;
+  height: $auto;
+  .container {
+    padding: $padding-50px;
+    .col-lg-6 {
+      margin: $margin-20px 0;
+      h3 {
+        color: $second-clr;
+      }
+      .create {
+        float: right;
+        background: $none;
+        color: $second-clr;
+        padding: $padding-20px $padding-40px;
+        background-color: $text-clr;
+        border-radius: $border-radius;
+        border: $border-radius-sm $solid $text-clr;
+        border-bottom: $border-radius-3sm $solid $second-clr;
+        &:hover {
+          background-color: $second-clr;
+          color: $text-clr;
+        }
+      }
+    }
+    .col-lg-4 {
+      margin: $margin-30px 0;
+      .card1 {
+        border: $size-1px $solid $second-clr;
+        padding: $padding-40px;
+        border-radius: $border-radius-10;
+        img {
+          margin: $margin-20px 0;
+          background: $second-clr;
+          padding: $font-size-sm;
+          height: $size-70px;
+          width: $size-70px;
+          border-radius: $border-radius-round;
+        }
+        h3,
+        p {
+          color: $second-clr;
+          margin: $margin-20px 0;
+        }
+      }
+    }
+  }
+}
+
+
+#c_first {
+  background: url("/img/heading-bg.jpg");
+  background-position: $bg_position;
+  background-repeat: $bg_repeat;
+  background-size: $bg_size;
+  height: $auto;
+  .container {
+    padding: $padding-50px 0;
+    .row {
+      padding: $padding-50px 0;
+      color: $second-clr;
+      text-align: $text_center;
+      h1 {
+        font-weight: $bold;
+        font-size: $size-50px;
+      }
+      p {
+        font-weight: $bold;
+        font-size: $size-20px;
+        a {
+          color: $text-clr;
+          text-decoration: $none;
+        }
+      }
+      .btns {
+        .btn1 {
+          border-radius: $border-radius-lg;
+          padding: $padding-10px $padding-20px;
+          border: $none;
+          color: $second-clr;
+          background-color: $text-clr;
+          margin: $margin-10px $margin-5px;
+          &:hover {
+            color: $text-clr;
+            background-color: $second-clr;
+            transition: 1s;
+          }
+        }
+        .btn2 {
+          border-radius: $border-radius-lg;
+          padding: $padding-10px $padding-20px;
+          border: $size-1px $solid $text-clr;
+          color: $second-clr;
+          background: $none;
+          margin: $margin-10px $margin-5px;
+          &:hover {
+            color: $text-clr;
+            background-color: $second-clr;
+            transition: 1s;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#c_second {
+  background: url("/img/dark-bg.jpg");
+  background-repeat: $bg_repeat;
+  background-position: $bg_position;
+  background-size: $bg_size;
+  padding: $padding-50px;
+  height: $auto;
+  .container {
+    padding: $padding-50px;
+    border-radius: $border-radius-lg;
+    label {
+      color: $second-clr;
+    }
+    input {
+      border-radius: $border-radius-lg;
+    }
+    .col-lg-4 {
+      margin: $margin-20px 0;
+      form {
+        margin-bottom: $margin-20px;
+        label {
+          margin: $margin-10px 0;
+        }
+        input {
+          border: $none;
+          padding: $padding-10px;
+        }
+      }
+    }
+    .col-lg-6 {
+      margin: $margin-20px 0;
+      .form {
+        margin-bottom: $margin-20px;
+        label {
+          margin: $margin-10px 0;
+        }
+        input {
+          border: $none;
+          padding: $padding-10px;
+        }
+      }
+    }
+    .col-lg-3 {
+      margin: $margin-10px 0;
+      .form {
+        margin-bottom: $margin-20px;
+        label {
+          margin: $margin-10px 0;
+        }
+        input {
+          border: $none;
+          padding: $padding-10px;
+        }
+      }
+    }
+    .col-lg-9 {
+      padding: $padding-30px;
+      margin: $margin-20px 0;
+      .input {
+        margin-bottom: $margin-20px;
+        width: $size-100;
+        input {
+          background-color: $text-clr;
+          border: $none;
+          color: $second-clr;
+          padding: $padding-10px;
+          margin-top: $margin-30px;
+          margin: 0 $margin-30px;
+          width: $size-100;
+        }
+      }
+    }
+    .item_preview {
+      text-align: $text_center;
+      color: $second-clr;
+      margin: $margin-30px 0;
+      b {
+        color: $text-clr;
+      }
+    }
+    .left {
+      img {
+        width: $size-100;
+        height: $size-360px;
+        border-radius: $border-radius;
+      }
+    }
+    .right {
+      .img {
+        display: $flex;
+        margin: $margin-30px 0;
+        img {
+          border-radius: $border-radius-round;
+          margin: 0 $margin-20px;
+        }
+      }
+      h4 {
+        color: $second-clr;
+      }
+      p {
+        color: $second-clr;
+        a {
+          text-decoration: $none;
+          color: $text-clr;
+          display: block;
+        }
+      }
+    }
+    .title_all {
+      display: $flex;
+      justify-content: space-around;
+      .title-1,
+      .title-2,
+      .title-3 {
+        padding: $padding-10px;
+        margin: $margin-20px 0;
+        h5 {
+          color: $text-clr;
+        }
+        h6 {
+          color: $second-clr;
+        }
+      }
+    }
+  }
+}

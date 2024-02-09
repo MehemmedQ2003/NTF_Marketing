@@ -1,0 +1,111 @@
+// colors
+$primary-clr: black;
+$text-clr: #7453FC;
+$text-clr-other: gray;
+$second-clr: rgb(252, 252, 252);
+$border_color: black;
+$bg-color: rgba(0, 0, 0, 0.175);
+$bg-color_1: rgb(23, 21, 21);
+$bg-color_2: #282b2f;
+
+// height
+$height_all: 100vh;
+
+// font size
+$font-size-root: 10px !important;
+$font-size-root15: 15px;
+$font-size-root16: 16px;
+$font-size-root17: 17px;
+$font-size-sm: 20px;
+$font-size-sm25: 25px;
+$font-size-md: 30x;
+$font-size-lg: 35px;
+$font-size-xl: 40px;
+$font-size-2lg: 70px; 
+$font-size-2xl: 80px;
+$font-size-8lg: 280px; 
+
+// font family
+$font-family: "Mulish", sans-serif;
+
+// font weight
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+// line-height
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+
+// border width
+$border-width: 1.2px;
+$border-width-lg: 4px;
+
+// border radius
+$border-radius: 30px;
+$border-radius-10: 20px;
+$border-radius-sm: 1px;
+$border-radius-3sm: $border-radius-sm * 3;
+$border-radius-lg: 35px;
+$border-radius-round: 50%;
+
+// size
+$size-1px: 1px;
+$size-5px: $size-1px * 5;
+$size-10px: $size-5px * 2;
+$size-15px: $size-5px * 3;
+$size-20px: $size-10px * 2;
+$size-30px: $size-10px * 3;
+$size-40px: $size-20px * 2;
+$size-50px: $size-10px * 5;
+$size-60px: $size-20px * 3;
+$size-70px: $size-10px * 7;
+$size-80px: $size-20px * 4;
+$size-90px: $size-10px * 9;
+$size-100px: $size-20px * 5;
+$size-120px: $size-60px * 2;
+$size-150px: $size-50px * 3;
+$size-160px: $size-80px * 2;
+$size-250px: $size-50px * 5;
+$size-320px: $size-160px * 2;
+$size-360px: $size-120px * 3;
+$size-100: 100%;
+
+// padding
+$padding-1px: $size-1px;
+$padding-5px: $size-5px;
+$padding-10px: $size-10px;
+$padding-15px: $size-15px;
+$padding-20px: $size-20px;
+$padding-30px: $size-30px;
+$padding-40px: $size-40px;
+$padding-50px: $size-50px;
+
+// margin
+$margin-1px: $size-1px;
+$margin-5px: $size-5px;
+$margin-10px: $size-10px;
+$margin-20px: $size-20px;
+$margin-30px: $size-30px;
+$margin-40px: $size-40px;
+$margin-50px: $size-50px;
+
+// Background
+$bg_size: cover;
+$bg_position: center;
+$bg_repeat: no-repeat;
+
+// text
+$text_center: center;
+$text_start: left;
+$text_end: right;
+
+// other
+$auto: auto;
+$none: none;
+$bold: bold;
+$solid: solid;
+$flex: flex;
